@@ -15,8 +15,8 @@ A cool and smooth clone of the Refokus website built using React, Tailwind CSS, 
 🎬 Animations: Framer Motion
 🌀 Smooth Scrolling: Locomotive Scroll
 
-## 📸 Preview
-![Website Preview](screenshot.png)
+ 📸 Preview
+![Website Preview](Picture.jpg)
 
 ## 🚀 Live Demo
 ![Website Preview](https://refokus-clone-steel.vercel.app/)
