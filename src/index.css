@@ -1,8 +1,17 @@
 @import "tailwindcss";
 
 @font-face {
-    font-family: "Satoshi";
-    src: url(./assets/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Black.ttf) format("truetype")
-    url(./assets/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Black.woff) format("woff")
-    url(./assets/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Black.woff2) format("woff2")
+  font-family: "Satoshi_Complete";
+  src: url(./assets/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Black.ttf)
+    format("truetype")
+    url(./assets/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Black.woff)
+    format("woff")
+    url(./assets/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Black.woff2)
+    format("woff2");
+}
+
+@layer utilities{
+    .font-Satoshi{
+        font-family: "Satoshi_Complete" , sans-serif
+    }
 }

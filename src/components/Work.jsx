@@ -83,7 +83,7 @@ const Work = () => {
   return (
     <div className="w-full">
       <div className="relative max-w-screen-xl mx-auto text-center">
-        <h1 className="text-[30vw] leading-none font-medium tracking-tight select-none">
+        <h1 className="text-[30vw] leading-none font-medium font-Satoshi tracking-tight select-none">
           work
         </h1>
         <div className="absolute top-0 w-full h-full">
