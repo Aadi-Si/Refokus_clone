@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="links flex gap-15 ml-20">
           {["Home", "Work", "Culture", "", "News"].map((elem, index) =>
             elem.length === 0 ? (
-              <span key={index} className=" w-[2px] h-7 bg-zinc-700"></span>
+              <span key={index} className=" w-[2px] h-7 bg-zinc-700 font-Satoshi"></span>
             ) : (
               <a
                 key={index}

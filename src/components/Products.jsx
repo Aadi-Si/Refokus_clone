@@ -52,7 +52,7 @@ const Products = () => {
           initial={{ y: pos }}
           animate={{ y: pos + `rem` }}
           transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.6 }}
-          className="window  absolute w-[28rem] h-[23rem] left-[34%] top-[6.5%] rounded-xl overflow-hidden"
+          className="window  absolute w-[28rem] h-[23rem] left-[30%] top-[6.5%] rounded-xl overflow-hidden"
         >
           <motion.div
             animate={{ y: -pos + `rem` }}
